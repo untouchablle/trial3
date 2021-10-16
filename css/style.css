@@ -1,10 +1,17 @@
 body {
     background-color: #98c1d9;
     color: #293241;
+    width: 1000px;
 }
 #title {
     text-align: center;
     color: #ee6c4d;
+}
+
+#survey-form {
+    border: 1px solid rgb(34, 34, 139);
+    width: 600px;
+    margin: 0px 200px;
 }
 #description {
     text-align: center;
@@ -46,5 +53,43 @@ body {
     width: 500px;
 }
 #dropdown {
-  margin-left: 100px;  
+  margin-left: 50px;  
+}
+
+.radio {
+    margin-left: 50px;
+}
+
+.drinks {
+    padding-left: 50px;
+}
+
+.class {
+    padding-left: 50px;
+}
+
+.checkbox {
+   margin-left: 50px;
+}
+
+.comments-input {
+    padding-left: 70px;
+}
+
+#comments {
+    width: 500px;
+    margin-left: 50px;
+}
+
+#submit {
+    margin-left: 230px;
+
+}
+
+#submit:hover {
+    background: rgb(85, 125, 199)
+}
+
+#reset:hover {
+    background: rgb(74, 74, 156);
 }
