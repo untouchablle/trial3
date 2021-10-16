@@ -15,7 +15,7 @@
       <label id = "email-label" for = "email">E-mail</label><br>
       <input id = "email" type = "email" name = "email" placeholder = "email" required><br><br>
       <label id = "number-label" for = "number">Number</label><br>
-      <input id = "number" type = "number" name = "number" placeholder = "number"><br><br>
+      <input id = "number" type = "number" name = "number" step = "1" min = "1" max = "10" placeholder = "number"><br><br>
       <label id = "dropdown" name = "dropdown-label">Fruits:</label><br><br>
       <select name = "fruits" id = "dropdown">
         <option value = "Apple">Apple</option>
@@ -44,13 +44,16 @@
         <br><br>
       </div>
 
+      <div>
+     <label class = "comments-input">Additional comments here:</label><br>
+     <textarea rows = 6 name = "comments"></textarea><br>
+    </div>
 
-
-
-
-
-
-    </form>
+    <div>
+   <button id = "submit" type = "submit">Submit</button>
+   <button id = "reset" type = "reset">Reset</button>
+ </div>
+</form>
 
     
 
