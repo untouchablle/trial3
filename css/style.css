@@ -1,35 +1,45 @@
 body {
-    background-color: #98c1d9;
-    color: #293241;
-    width: 1000px;
+    background-color: rgb(247, 240, 231);
+    color: rgb(36, 35, 43);
+    text-align: center;
 }
 #title {
     text-align: center;
-    color: #ee6c4d;
+    color: black;
+    text-shadow: darkslategray;
 }
 
 #survey-form {
-    border: 1px solid rgb(34, 34, 139);
-    width: 600px;
-    margin: 0px 200px;
+    border: 5px solid rgb(199, 159, 48);
+    margin: 0px 500px;
+    background-color: rgb(252, 255, 204);
 }
 #description {
     text-align: center;
 }
 #name-label {
-    color: #e0fbfc;
+    color: #50503e;
+    text-decoration: underline;
     font-size: 20px;
-    text-align: center;
     padding-left: 20px;
 }
 #email-label {
-    color: #e0fbfc;
+    color: #50503e;
+    text-decoration: underline;
     font-size: 20px;
     text-align: center;
     padding-left: 20px;
 }
 #number-label {
-    color: #e0fbfc;
+    color: #50503e;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+#dropdown-label {
+    color: #50503e;
+    text-decoration: underline;
     font-size: 20px;
     text-align: center;
     padding-left: 20px;
@@ -74,6 +84,8 @@ body {
 
 .comments-input {
     padding-left: 70px;
+    color: #50503e;
+    text-decoration: underline;
 }
 
 #comments {
@@ -82,10 +94,17 @@ body {
 }
 
 #submit {
-    margin-left: 230px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    color: white;
 
 }
+#reset {
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    color: white;
 
+}
 #submit:hover {
     background: rgb(85, 125, 199)
 }
