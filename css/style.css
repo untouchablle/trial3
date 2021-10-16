@@ -1,0 +1,50 @@
+body {
+    background-color: #98c1d9;
+    color: #293241;
+}
+#title {
+    text-align: center;
+    color: #ee6c4d;
+}
+#description {
+    text-align: center;
+}
+#name-label {
+    color: #e0fbfc;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+#email-label {
+    color: #e0fbfc;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+#number-label {
+    color: #e0fbfc;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+#name {
+    margin-left: 50px;
+    text-align: center;
+    height: 30px;
+    width: 500px;
+}
+#email {
+    margin-left: 50px;
+    text-align: center;
+    height: 30px;
+    width: 500px;
+}
+#number {
+    margin-left: 50px;
+    text-align: center;
+    height: 30px;
+    width: 500px;
+}
+#dropdown {
+  margin-left: 100px;  
+}
